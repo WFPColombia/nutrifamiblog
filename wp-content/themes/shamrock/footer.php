@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="col-lg-12">
 			<div class="site-info">
-				<?php printf( esc_html__( 'Copyright &copy; %s. Created by %s. Powered by %s.', 'shamrock' ), date('Y', time()),  '<a href="http://mekshq.com" target="_blank">Meks</a>' , '<a href="http://wordpress.org" target="_blank">WordPress</a>' ); ?>
+				<?php printf( esc_html__( 'Copyright &copy; %s. %s. Powered by %s.', 'shamrock' ), date('Y', time()),  '<a href="http://nutrifami.org" target="_blank">Nutrifami</a>' , '<a href="http://wordpress.org" target="_blank">WordPress</a>' ); ?>
 			</div>
 
 			<?php if ( has_nav_menu( 'shamrock_footer_menu' ) ) : ?>
